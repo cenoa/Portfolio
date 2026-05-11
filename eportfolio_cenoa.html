@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cénoa Dangreaux — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav>
+  <div class="nav-logo">CD</div>
+  <ul class="nav-links">
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#competences">Compétences</a></li>
+    <li><a href="#projets">Projets</a></li>
+    <li><a href="#parcours">Parcours</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+<section id="about" style="max-width:100%; padding:0;">
+  <div id="hero">
+    <div class="hero-text fade-in">
+      <p class="hero-subtitle">E-Portfolio</p>
+      <h1>Cénoa<br><span>Dangreaux</span></h1>
+      <p class="hero-desc">
+        Étudiant en informatique à l'IUT de Maubeuge, en première année de BUT Informatique.
+        Passionné de développement, de réseaux et de gestion de projet. À la recherche d'une <strong style="color:var(--accent)">alternance</strong>.
+      </p>
+      <a href="#contact" class="hero-cta">Me contacter →</a>
+    </div>
+    <div class="hero-photo-container fade-in">
+      <div class="photo-frame">
+        <span class="corner-tag">2025 – 2028</span>
+        <img src="photo.jpg" alt="Photo de Cénoa Dangreaux" class="photo-image">
+        <p class="photo-label">Cénoa Dangreaux</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="video" style="padding-top:2rem;">
+  <div class="section-label">Présentation</div>
+  <h2 class="section-title">Ma vidéo de présentation</h2>
+  <div class="video-placeholder fade-in">
+    <div class="play-btn">
+      <svg width="28" height="28" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+    </div>
+    <p class="video-note">Ta vidéo de présentation ici</p>
+    <p style="font-size:0.75rem;color:#555;text-align:center;">Intègre ta vidéo en remplaçant ce bloc par une balise &lt;video&gt; ou un iframe YouTube</p>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+
+<section id="competences">
+  <div class="section-label">Ce que je sais faire</div>
+  <h2 class="section-title">Mes compétences</h2>
+  <div class="skills-grid fade-in">
+    <div class="skill-card">
+      <div class="skill-icon">🐍</div>
+      <div class="skill-name">Python</div>
+      <p style="font-size:0.85rem;color:var(--muted)">Développement algorithmique, jeux, scripts</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">🌐</div>
+      <div class="skill-name">HTML + CSS</div>
+      <p style="font-size:0.85rem;color:var(--muted)">Création de pages web et interfaces</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">🗄️</div>
+      <div class="skill-name">SQL / PostgreSQL</div>
+      <p style="font-size:0.85rem;color:var(--muted)">Bases de données, modélisation, requêtes</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:50%"></div></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">🖥️</div>
+      <div class="skill-name">Réseaux</div>
+      <p style="font-size:0.85rem;color:var(--muted)">Configuration IP, SSH, virtualisation QEMU/KVM</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:45%"></div></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">🔧</div>
+      <div class="skill-name">Maintenance</div>
+      <p style="font-size:0.85rem;color:var(--muted)">Maintenance informatique, logiciels</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:55%"></div></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">📋</div>
+      <div class="skill-name">Gestion de projet</div>
+      <p style="font-size:0.85rem;color:var(--muted)">Organisation, planification, travail en équipe</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+
+<section id="projets">
+  <div class="section-label">Ce que j'ai construit</div>
+  <h2 class="section-title">Mes projets</h2>
+  <div class="projects-grid fade-in">
+
+    <div class="project-card">
+      <div class="project-top">🎮</div>
+      <div class="project-body">
+        <span class="project-tag">SAE S1.01 — Python</span>
+        <div class="project-title">Puissance 4</div>
+        <p class="project-desc">Développement d'un jeu Puissance 4 en deux versions : console et interface graphique avec PyGame. Gestion de la logique de jeu, des tours, victoire et égalité.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-top">💒</div>
+      <div class="project-body">
+        <span class="project-tag">SAE S1.04 — SQL</span>
+        <div class="project-title">BDD Wedding Planner</div>
+        <p class="project-desc">Conception et implémentation d'une base de données pour un organisateur de mariages : modélisation, requêtes SQL, gestion de prestataires et checklists.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-top">🖥️</div>
+      <div class="project-body">
+        <span class="project-tag">SAE S1.03 — Réseaux</span>
+        <div class="project-title">Virtualisation QEMU/KVM</div>
+        <p class="project-desc">Installation et configuration de systèmes hétérogènes (Windows & Debian), réseau interne, serveur Apache, partage Samba, accès SSH sécurisé.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-top">💼</div>
+      <div class="project-body">
+        <span class="project-tag">2022–2024 — Entrepreneuriat</span>
+        <div class="project-title">Project Maker</div>
+        <p class="project-desc">Vente de programmes informatiques, gestion d'équipe, planification d'ouverture d'une SARL et recrutement de personnel.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+
+<section id="parcours">
+  <div class="section-label">Mon histoire</div>
+  <h2 class="section-title">Diplômes & Expériences</h2>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;" class="fade-in">
+
+    <div>
+      <p style="font-family:'Syne',sans-serif;font-weight:700;font-size:1rem;margin-bottom:2rem;color:var(--accent)">🎓 Formation</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">2025 – 2028</div>
+          <div class="timeline-title">BUT Informatique</div>
+          <div class="timeline-sub">IUT de Maubeuge</div>
+          <div class="timeline-desc">Première année en cours — Programmation, réseaux, bases de données, gestion de projet.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2022 – 2025</div>
+          <div class="timeline-title">Baccalauréat</div>
+          <div class="timeline-sub">Les Nerviens, Bavay</div>
+          <div class="timeline-desc">Admis avec mentions — Spécialités Mathématiques et NSI (Numérique et Sciences Informatiques).</div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p style="font-family:'Syne',sans-serif;font-weight:700;font-size:1rem;margin-bottom:2rem;color:var(--accent)">💼 Expériences</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">Depuis août 2025</div>
+          <div class="timeline-title">Intérim en usine</div>
+          <div class="timeline-sub">Ménissez</div>
+          <div class="timeline-desc">Emballage, stockage de cartons, surveillance de lignes de production.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2022 – 2024</div>
+          <div class="timeline-title">Project Maker</div>
+          <div class="timeline-sub">Auto-entrepreneur</div>
+          <div class="timeline-desc">Vente de programmes, gestion de projet, management d'équipe, planification d'une SARL, recrutement.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+
+<section id="interets">
+  <div class="section-label">Qui je suis</div>
+  <h2 class="section-title">Centres d'intérêt</h2>
+  <div class="interests-grid fade-in">
+    <div class="interest-card">
+      <div class="interest-icon">🏋️</div>
+      <div class="interest-name">Musculation</div>
+      <div class="interest-sub">Fitness Park Maubeuge<br>depuis 2025</div>
+    </div>
+    <div class="interest-card">
+      <div class="interest-icon">🏃</div>
+      <div class="interest-name">Course à pied</div>
+      <div class="interest-sub">2024 – 2025</div>
+    </div>
+    <div class="interest-card">
+      <div class="interest-icon">🏉</div>
+      <div class="interest-name">Rugby</div>
+      <div class="interest-sub">Sport d'équipe<br>depuis 2024</div>
+    </div>
+    <div class="interest-card">
+      <div class="interest-icon">💻</div>
+      <div class="interest-name">Développement</div>
+      <div class="interest-sub">Projets personnels & SAE</div>
+    </div>
+    <div class="interest-card">
+      <div class="interest-icon">🚀</div>
+      <div class="interest-name">Entrepreneuriat</div>
+      <div class="interest-sub">Project Maker 2022–2024</div>
+    </div>
+  </div>
+</section>
+
+
+<div class="cv-section">
+  <p style="color:var(--muted);font-size:0.9rem;margin-bottom:1.5rem;">Envie d'en savoir plus sur mon parcours ?</p>
+  <a href="#" class="cv-btn" onclick="alert('Remplace ce lien par le vrai lien vers ton CV PDF !')">
+    📄 Télécharger mon CV
+  </a>
+</div>
+
+<div class="divider"></div>
+
+
+<div id="contact">
+  <div class="contact-inner">
+    <div>
+      <div class="section-label">Restons en contact</div>
+      <h2 class="section-title" style="margin-bottom:2rem;">Me contacter</h2>
+      <div class="contact-info fade-in">
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div class="contact-text">
+            <div class="contact-label">Téléphone</div>
+            <a href="tel:0610257965">06 10 25 79 65</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-text">
+            <div class="contact-label">Courriel</div>
+            <a href="mailto:cenoa123@gmail.com">cenoa123@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🚗</div>
+          <div class="contact-text">
+            <div class="contact-label">Transport</div>
+            <span>Voiture & Transports en commun</span>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="socials fade-in">
+        <a href="https://www.linkedin.com/in/cénoa-dangreaux-1918762b9" target="_blank" class="social-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://facebook.com" target="_blank" class="social-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Facebook
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          Twitter / X
+        </a>
+      </div>
+    </div>
+
+    
+    <div>
+      <div class="section-label">Me géolocaliser</div>
+      <h2 class="section-title" style="margin-bottom:1.5rem;">Ma localisation</h2>
+      <div class="map-placeholder fade-in">
+        <iframe
+          src="https://www.openstreetmap.org/export/embed.html?bbox=3.85,50.22,4.10,50.35&layer=mapnik&marker=50.2803,3.9744"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>
+      <p style="font-size:0.8rem;color:var(--muted);margin-top:0.75rem;">📍 179 Rue Roger Salengro — Zone Maubeuge / Bavay</p>
+    </div>
+
+  </div>
+</div>
+
+
+<footer>
+  <p>© 2025 Cénoa Dangreaux — E-Portfolio BUT Informatique IUT Maubeuge</p>
+</footer>
+
+<script>
+  // Fade-in on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Skill bar animation on scroll
+  const skillObserver = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.querySelectorAll('.skill-fill').forEach(bar => {
+          bar.style.animationPlayState = 'running';
+        });
+      }
+    });
+  }, { threshold: 0.2 });
+
+  document.querySelectorAll('.skills-grid').forEach(el => skillObserver.observe(el));
+</script>
+</body>
+</html>
+
