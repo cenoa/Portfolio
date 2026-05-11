@@ -618,8 +618,3 @@
     .contact-inner { grid-template-columns: 1fr; gap: 2rem; }
     #contact { padding: 4rem 1.5rem; }
   }
-
-.fade-in {
-  opacity: 1 !important;
-  transform: none !important;
-}
